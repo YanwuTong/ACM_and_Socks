@@ -5,3 +5,8 @@
 
 
 # Coloring Socks
+* from Kattis
+* using minimum number of laundry machine to clean socks with different color.
+* laundry machine hase capacity
+* have color tolerance. socks with different color but in tolerance could be wash together.
+* relate to greedy algorithm
