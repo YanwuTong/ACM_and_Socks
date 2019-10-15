@@ -8,5 +8,8 @@ CXXFLAGS = -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wno-unused-private-fi
 minions: minions.o acm.o
 	${CXX} $^ -o $@
 
+socks: socks.o
+	${CXX} $^ -o $@
+
 clean:
 	/bin/rm -f *.o minions socks
